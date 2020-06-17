@@ -141,10 +141,10 @@
                 </div>
                 <div class="feedback__right">
                     <form class="form" action="#" method="post">
-                        <input class="form__field" type="text" name="name" placeholder="Name" required>
-                        <input class="form__field" type="email" name="email" placeholder="Email" required>
-                        <input class="form__field" type="tel" name="phone" placeholder="Phone" required>
-                        <textarea class="textarea" name="message" placeholder="Message" required></textarea>
+                        <input class="form__field" type="text" name="name" placeholder="Name" required onfocus="if (placeholder == 'Name') {placeholder = ''}" onblur="if (placeholder == '') {placeholder = 'Name'}">
+                        <input class="form__field" type="email" name="email" placeholder="Email" required onfocus="if (placeholder == 'Email') {placeholder = ''}" onblur="if (placeholder == '') {placeholder = 'Email'}">
+                        <input class="form__field" type="tel" name="phone" placeholder="Phone" required onfocus="if (placeholder == 'Phone') {placeholder = ''}" onblur="if (placeholder == '') {placeholder = 'Phone'}">
+                        <textarea class="textarea" name="message" placeholder="Message" required onfocus="if (placeholder == 'Message') {placeholder = ''}" onblur="if (placeholder == '') {placeholder = 'Message'}"></textarea>
                         <button class="submit-btn btn-blue" type="submit">Submit</button>
                     </form>
                 </div>
@@ -156,7 +156,7 @@
     <div class="container">
         <div class="footer__top">
             <a class="footer-logo">
-                <img src="img/svg/footer-logo.svg" width="218.4" height="177" alt="Vincatech1">
+                <img src="img/svg/footer-logo.svg" alt="Vincatech1">
             </a>
             <ul class="footer-nav">
                 <li class="footer-nav__item">
@@ -216,5 +216,6 @@
         </div>
     </div>
 </footer>
+<script src="js/main.js"></script>
 </body>
 </html>
