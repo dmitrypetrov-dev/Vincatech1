@@ -196,6 +196,95 @@ img {
 
 /*Header styles end*/
 
+/*Pop-up styles*/
+
+.popup {
+    max-width: 1074px;
+    height: 1396px;
+    margin: 179px auto 200px auto;
+    border-radius: 8px;
+    background: url(../img/popup-bg.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.popup-close {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 85px;
+    right: 89px;
+}
+
+.popup-close:hover {
+    cursor: pointer;
+}
+
+.popup-close__block {
+    position: relative;
+}
+
+.popup-close__block::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    top: 23px;
+    right: -2px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+
+.popup-close__block::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    top: 23px;
+    right: -2px;
+    transform: rotate(-45deg);
+    background-color: #fff;
+}
+
+.popup__wrapper {
+    max-width: 778px;
+    margin: 0 auto;
+    padding: 152px 0 0 0;
+}
+
+.popup__title {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: -0.000973894px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+
+.popup-2__title {
+    text-align: center;
+}
+
+.popup__subtitle {
+    max-width: 596px;
+    margin: 0 auto 86px auto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.000430634px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.popup__form {
+    padding-left: 68px;
+}
+
+
+/*Pop-up styles end*/
+
 /*Main page styles*/
 
 /*Intro*/
@@ -521,6 +610,10 @@ img {
     padding: 24px 58px;
 }
 
+.popup__field {
+    border: none;
+}
+
 .form__field:focus {
     border-color: #596ABA;
 }
@@ -546,6 +639,11 @@ img {
     border-radius: 8px;
     padding: 37px 57px;
     outline: none;
+}
+
+.popup__area {
+    padding: 22px 57px;
+    border: none;
 }
 
 .textarea::placeholder {
@@ -581,6 +679,11 @@ img {
 .submit-btn:focus {
     cursor: pointer;
     background-color: #3C4D9A;
+}
+
+.popup-submit {
+    left: 181px;
+    background-color: #4A90E2;
 }
 
 /*Feedback end*/
