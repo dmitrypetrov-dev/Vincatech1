@@ -385,7 +385,7 @@ img {
 
 .slider {
     max-width: 1018px;
-    margin: 0 auto;
+    margin: 0 auto 211px auto;
 }
 
 .slider__item {
