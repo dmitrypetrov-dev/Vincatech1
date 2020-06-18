@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+    <title>Vincatech1</title>
+</head>
+<body>
+<main>
+    <div class="popup">
+        <div class="popup-close">
+            <div class="popup-close__block">
+
+            </div>
+        </div>
+        <div class="popup__wrapper">
+            <h2 class="popup__title">Schedule a meeting</h2>
+            <p class="popup__subtitle">We do our best work when we can learn about your <br> business, people, process
+                and strategies. Request a
+                meeting now!</p>
+            <form class="form popup__form" action="#" method="post">
+                <input class="form__field popup__field" type="text" name="name" placeholder="Name" required
+                       onfocus="if (placeholder == 'Name') {placeholder = ''}"
+                       onblur="if (placeholder == '') {placeholder = 'Name'}">
+                <input class="form__field popup__field" type="text" name="company" placeholder="Company" required
+                       onfocus="if (placeholder == 'Company') {placeholder = ''}"
+                       onblur="if (placeholder == '') {placeholder = 'Company'}">
+                <input class="form__field popup__field" type="email" name="email" placeholder="Email" required
+                       onfocus="if (placeholder == 'Email') {placeholder = ''}"
+                       onblur="if (placeholder == '') {placeholder = 'Email'}">
+                <input class="form__field popup__field" type="tel" name="phone" placeholder="Phone" required
+                       onfocus="if (placeholder == 'Phone') {placeholder = ''}"
+                       onblur="if (placeholder == '') {placeholder = 'Phone'}">
+                <textarea class="textarea popup__field popup__area" name="message" placeholder="Message" required
+                          onfocus="if (placeholder == 'Message') {placeholder = ''}"
+                          onblur="if (placeholder == '') {placeholder = 'Message'}"></textarea>
+                <button class="submit-btn btn-blue popup-submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="popup-close">
+            <div class="popup-close__block">
+
+            </div>
+        </div>
+        <div class="popup__wrapper">
+            <h2 class="popup__title popup-2__title">Requet a quote</h2>
+            <p class="popup__subtitle">We do our best work when we can learn about your <br> business, people, process
+                and strategies. Request a
+                quote now!</p>
+            <form class="form popup__form" action="#" method="post">
+                <input class="form__field popup__field" type="text" name="name" placeholder="Name" required
+                       onfocus="if (placeholder == 'Name') {placeholder = ''}"
+                       onblur="if (placeholder == '') {placeholder = 'Name'}">
+                <input class="form__field popup__field" type="text" name="company" placeholder="Company" required
+                       onfocus="if (placeholder == 'Company') {placeholder = ''}"
+                       onblur="if (placeholder == '') {placeholder = 'Company'}">
+                <input class="form__field popup__field" type="email" name="email" placeholder="Email" required
+                       onfocus="if (placeholder == 'Email') {placeholder = ''}"
+                       onblur="if (placeholder == '') {placeholder = 'Email'}">
+                <input class="form__field popup__field" type="tel" name="phone" placeholder="Phone" required
+                       onfocus="if (placeholder == 'Phone') {placeholder = ''}"
+                       onblur="if (placeholder == '') {placeholder = 'Phone'}">
+                <textarea class="textarea popup__field popup__area" name="message" placeholder="Message" required
+                          onfocus="if (placeholder == 'Message') {placeholder = ''}"
+                          onblur="if (placeholder == '') {placeholder = 'Message'}"></textarea>
+                <button class="submit-btn btn-blue popup-submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
