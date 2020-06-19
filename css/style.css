@@ -474,7 +474,7 @@ img {
 
 .slider {
     max-width: 1018px;
-    margin: 0 auto 211px auto;
+    margin: 0 auto 136px auto;
 }
 
 .slider__item {
@@ -496,7 +496,7 @@ img {
     text-align: center;
     letter-spacing: -0.000430634px;
     color: #000000;
-    margin: 0;
+    margin: 0 0 31px 0;
 }
 
 .slider__subtitle {
@@ -506,7 +506,7 @@ img {
     text-align: center;
     letter-spacing: -0.000430634px;
     color: #000000;
-    margin: 0;
+    margin: 0 0 44px 0;
 }
 
 .slider-buttons {
@@ -517,11 +517,7 @@ img {
     justify-content: center;
 }
 
-.slider-buttons li {
-    margin-right: 8px;
-}
-
-.slider .slider-buttons button {
+.slider-buttons button {
     font-size: 0;
     width: 7px;
     height: 7px;
@@ -530,15 +526,18 @@ img {
     border-radius: 50%;
     border: none;
     outline: none;
+    padding: 0;
+    margin-right: 8px;
 }
 
-.slider-buttons li.slick-active button {
+li.slick-active button {
     width: 12px;
     height: 12px;
     opacity: 0.5;
 }
 
 .partners {
+    position: relative;
     max-width: 1465px;
     height: 80px;
     margin: 0 auto;
