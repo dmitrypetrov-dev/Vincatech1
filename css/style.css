@@ -20,6 +20,10 @@ body {
     color: #000000;
 }
 
+main {
+    box-shadow: inset 0 23px 37px -8px rgba(0, 0, 0, 0.29);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -694,7 +698,6 @@ li.slick-active button {
 
 .privacy {
     background-image: url(../img/svg/main-page-about.svg);
-    box-shadow: inset 0 23px 37px -8px rgba(0,0,0,0.29)
 }
 
 .privacy__wrapper {
@@ -935,6 +938,125 @@ li.slick-active button {
 
 
 /*Privacy page styles end*/
+
+/*Cookies page styles*/
+
+.cookies {
+    background-image: url(../img/svg/main-page-about.svg);
+}
+
+.cookies__wrapper {
+    padding: 151px 0 117px 0;
+}
+
+.cookies__title {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: -0.00150722px;
+    color: #000000;
+    margin-bottom: 85px;
+}
+
+.cookies__text {
+    margin: 0;
+}
+
+.cookies__subtitle-1 {
+    margin: 32px 0 24px 0;
+}
+
+.cookies__subtitle {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.00064595px;
+    color: #000000;
+}
+
+.cookies-block-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.cookies-block-2 {
+    margin-bottom: 85px;
+}
+
+.cookies__ulist {
+    list-style: none;
+    margin: 7px 0 35px 0;
+    padding: 0;
+}
+
+.cookies__ulist-item {
+    padding: 10px 0;
+}
+
+.cookies__ulist-num {
+    background: #586CCC;
+    display: inline-block;
+    width: 6.72px;
+    height: 6.72px;
+    border-radius: 50%;
+    margin-right: 21px;
+    margin-bottom: 4px;
+}
+
+.cookies_bold {
+    font-weight: bold;
+}
+
+.cookies_mgn {
+    margin-left: 28px;
+}
+
+.cookies__subtitle-2 {
+    margin: 0 0 34px 0;
+    line-height: 18px;
+}
+
+.cookies__ulist-2 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cookies__ulist-2-item:last-child {
+    padding-top: 23px;
+}
+
+.cookies__subtitle-3 {
+    margin: 32px 0 24px 0;
+}
+
+.cookies__ulist-3 {
+    margin: 21px 0 21px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cookies__ulist-3-item {
+    padding: 21px 0;
+}
+
+.cookies__ulist-3 a {
+    color: #586CCC;
+}
+
+.cookies-block-6 a {
+    color: #586CCC;
+}
+
+.cookies__subtitle-4 {
+    margin: 32px 0 24px 0;
+}
+
+.cookies__subtitle-5 {
+    margin: 52px 0 24px 0;
+}
+
+/*Cookies page styles end*/
 
 /*Footer styles*/
 
