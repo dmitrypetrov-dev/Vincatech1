@@ -35,7 +35,7 @@ img {
 
 .header {
     padding: 49px 0 48px 0;
-    box-shadow: 0 17px 35px -11px rgba(0, 0, 0, 0.38);
+    box-shadow: 0 2px 59px rgba(0,0,0,0.3);
     position: relative;
 }
 
@@ -465,7 +465,7 @@ img {
 .testimonials {
     padding: 174px 0 145px 0;
     background: url(../img/main-page-testimonials.jpg) no-repeat;
-    background-position: 50% -14.5%;
+    background-position: 0 56px;
     background-size: cover;
 }
 
@@ -565,7 +565,7 @@ li.slick-active button {
 .feedback {
     background: linear-gradient(to right, #3C4D9A 50%, #fff 50%);
     height: 1012px;
-    box-shadow: 0 -15px 35px -11px rgba(0, 0, 0, 0.38);
+    box-shadow: 0 2px 59px rgba(0,0,0,0.3);
 }
 
 .feedback__wrapper {
@@ -1070,7 +1070,7 @@ li.slick-active button {
 
 .company-bg-2 {
     background: url(../img/main-page-testimonials.jpg) no-repeat;
-    background-position: 50% -150%;
+    background-position: 5px 122px;
     background-size: cover;
 }
 
@@ -1395,6 +1395,86 @@ li.slick-active button {
 }
 
 /*Industry page styles end*/
+
+/*Blog page styles*/
+
+.blog {
+    padding: 150px 0;
+}
+
+.blog__title {
+    margin-bottom: 29px;
+}
+
+.blog__subtitle {
+    max-width: 956px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: -0.000861267px;
+    color: #000000;
+    margin: 0 0 115px 0;
+}
+
+.blog-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-block__left {
+    width: 543px;
+}
+
+.blog-block__right {
+    max-width: 844px;
+}
+
+.blog-block__title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 67px;
+    letter-spacing: -0.0012919px;
+    margin-bottom: 55px;
+}
+
+.blog-block__title a {
+    color: #000000;
+}
+
+.blog-block__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 42px;
+    letter-spacing: -0.000430634px;
+    color: #000000;
+    margin: 0 0 35px 0;
+    padding-left: 2px;
+}
+
+.blog-block__date {
+    display: flex;
+    height: 42px;
+}
+
+.blog-block__date div{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.000322975px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.blog-block__date div:first-child {
+    padding: 12px 29px 0 0;
+    border-right: 1px solid #000000;
+}
+
+.blog-block__date div:last-child {
+    padding: 12px 0 0 52px;
+}
+
+/*Blog page styles end*/
 
 /*Footer styles*/
 
