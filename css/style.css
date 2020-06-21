@@ -102,6 +102,8 @@ img {
     border-radius: 3px 3px 0 0;
     display: none;
     z-index: 100;
+    box-shadow: 13px 7px 29px -11px rgba(0, 0, 0, 0.55);
+
 }
 
 .dropdown-menu::after {
@@ -125,6 +127,7 @@ img {
     border-radius: 0 6px 6px 6px;
     background: #586ccc;
     display: none;
+    box-shadow: 10px 10px 10px -8px rgba(0, 0, 0, 0.75);
 }
 
 .dropdown-menu:hover .drop-menu {
@@ -984,7 +987,7 @@ li.slick-active button {
 }
 
 .cookies-block-2 {
-    margin-bottom: 85px;
+    margin-bottom: 32px;
 }
 
 .cookies__ulist {
@@ -1544,7 +1547,10 @@ li.slick-active button {
 .footer__top {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 61px;
+}
+
+.footer-logo {
+    height: 50px;
 }
 
 .footer-nav {
@@ -1586,6 +1592,17 @@ li.slick-active button {
 .footer-btn {
     width: 243px;
     height: 60px;
+}
+
+.footer__descr {
+    height: 129px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.000241155px;
+    color: #424964;
+    padding: 22px 0 15px 0;
+    margin-bottom: 63px;
 }
 
 .footer__middle {
