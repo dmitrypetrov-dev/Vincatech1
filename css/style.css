@@ -35,7 +35,7 @@ img {
 
 .header {
     padding: 49px 0 48px 0;
-    box-shadow: 0 2px 59px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 59px rgba(0, 0, 0, 0.3);
     position: relative;
 }
 
@@ -565,7 +565,7 @@ li.slick-active button {
 .feedback {
     background: linear-gradient(to right, #3C4D9A 50%, #fff 50%);
     height: 1012px;
-    box-shadow: 0 2px 59px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 59px rgba(0, 0, 0, 0.3);
 }
 
 .feedback__wrapper {
@@ -1399,7 +1399,8 @@ li.slick-active button {
 /*Blog page styles*/
 
 .blog {
-    padding: 150px 0;
+    padding: 150px 0 120px 0;
+    background-image: url(../img/svg/main-page-about.svg);
 }
 
 .blog__title {
@@ -1419,6 +1420,7 @@ li.slick-active button {
 .blog-block {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 142px;
 }
 
 .blog-block__left {
@@ -1456,7 +1458,7 @@ li.slick-active button {
     height: 42px;
 }
 
-.blog-block__date div{
+.blog-block__date div {
     font-weight: bold;
     font-size: 15px;
     line-height: 19px;
@@ -1465,13 +1467,69 @@ li.slick-active button {
     color: #000000;
 }
 
-.blog-block__date div:first-child {
+.blog-time {
     padding: 12px 29px 0 0;
-    border-right: 1px solid #000000;
+    border-right: 1px solid rgba(0, 0, 0, .2);
 }
 
-.blog-block__date div:last-child {
+.blog-views {
     padding: 12px 0 0 52px;
+    position: relative;
+}
+
+.blog-views::before {
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 12px;
+    top: 15px;
+    left: 24px;
+    background: url(../img/svg/blog-page-eye.svg) center no-repeat;
+}
+
+.blog-block__title-2 {
+    line-height: 43px;
+}
+
+.blog-block__title-3 {
+    line-height: 59px;
+}
+
+.blog-block__title-4 {
+    line-height: 59px;
+}
+
+.blog-block:nth-child(4) {
+    margin-bottom: 105px;
+}
+
+.btn-gray {
+    font-family: Muli, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.000430634px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .3s linear;
+}
+
+.blog-btn {
+    width: 604px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.btn-gray:hover,
+.btn-gray:focus {
+    background-color: #e1e2e2;
 }
 
 /*Blog page styles end*/
