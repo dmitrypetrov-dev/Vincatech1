@@ -1402,7 +1402,7 @@ li.slick-active button {
 /*Blog page styles*/
 
 .blog {
-    padding: 150px 0 120px 0;
+    padding: 150px 0 119px 0;
     background-image: url(../img/svg/main-page-about.svg);
 }
 
@@ -1437,13 +1437,20 @@ li.slick-active button {
 .blog-block__title {
     font-weight: 900;
     font-size: 60px;
-    line-height: 67px;
+    line-height: 63px;
     letter-spacing: -0.0012919px;
-    margin-bottom: 55px;
+    display: inline;
+    border-bottom: 1px solid #000000;
+    transition: border .3s linear;
+}
+
+.blog-block__title:hover {
+    border: none;
 }
 
 .blog-block__title a {
     color: #000000;
+    text-decoration: none;
 }
 
 .blog-block__text {
@@ -1452,7 +1459,6 @@ li.slick-active button {
     line-height: 42px;
     letter-spacing: -0.000430634px;
     color: #000000;
-    margin: 0 0 35px 0;
     padding-left: 2px;
 }
 
@@ -1495,11 +1501,27 @@ li.slick-active button {
 }
 
 .blog-block__title-3 {
-    line-height: 59px;
+    line-height: 58px;
 }
 
 .blog-block__title-4 {
     line-height: 59px;
+}
+
+.blog-block__text-1 {
+    margin: 53px 0 35px 0;
+}
+
+.blog-block__text-2 {
+    margin: 40px 0 35px 0;
+}
+
+.blog-block__text-3 {
+    margin: 43px 0 35px 0;
+}
+
+.blog-block__text-4 {
+    margin: 41px 0 35px 0;
 }
 
 .blog-block:nth-child(4) {
@@ -1536,6 +1558,51 @@ li.slick-active button {
 }
 
 /*Blog page styles end*/
+
+/*Blog-article page styles*/
+
+.blog-article {
+    padding: 169px 0 136px 0;
+    background-image: url(../img/svg/main-page-about.svg);
+}
+
+.blog-post__title {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: -0.00150722px;
+    color: #000000;
+    margin-bottom: 31px;
+}
+
+.blog-post__right {
+    padding-top: 143px;
+}
+
+.blog-post__date {
+    padding-left: 3px;
+}
+
+.blog-post__text {
+    max-width: 808px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: -0.000861267px;
+    color: #000000;
+    margin: 29px 0 0 0;
+}
+
+.blog-post__intro {
+    margin-bottom: 102px;
+}
+
+.blog-article__text {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+/*Blog-article page styles end*/
 
 /*Footer styles*/
 
