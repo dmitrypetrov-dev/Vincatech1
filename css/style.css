@@ -1604,6 +1604,163 @@ li.slick-active button {
 
 /*Blog-article page styles end*/
 
+/*Contact us page styles*/
+
+.contacts {
+    padding: 150px 0 158px 0;
+    background-image: url(../img/svg/main-page-about.svg);
+}
+
+.contacts__title {
+    margin-bottom: 29px;
+}
+
+.contacts__subtitle {
+    max-width: 948px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: -0.000861267px;
+    color: #000000;
+    margin: 0 0 106px 0;
+}
+
+.contacts__wrapper {
+    display: flex;
+}
+
+.contacts-form__field {
+    width: 858px;
+}
+
+.contacts-textarea {
+    width: 858px;
+    height: 449px;
+}
+
+.contacts-submit {
+    position: static;
+    margin: 90px auto 0 auto;
+    padding: 0;
+}
+
+.contacts-right {
+    padding: 0 0 0 138px;
+}
+
+.contacts-right__title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 21px;
+    letter-spacing: -0.00064595px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contacts-right__text {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 57px;
+    letter-spacing: -0.000417383px;
+    color: #000000;
+    margin: 53px 0 112px 0;
+}
+
+.contacts-right__text a {
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+    transition: border .3s linear;
+}
+
+.contacts-right__text a:hover {
+    border: none;
+}
+
+.contacts__socials {
+    margin-top: 74px;
+}
+
+.contacts__socials-link {
+    display: block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 21px;
+    background-color: #596ABA;
+}
+
+.contacts__socials-link:hover {
+    opacity: .8;
+}
+
+.contacts__socials--fb {
+    background-image: url(../img/svg/contacts-fb-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts__socials--lkdn {
+    background-image: url(../img/svg/contacts-lkdn-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts__socials--inst {
+    background-image: url(../img/svg/contacts-inst-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts__socials--twt {
+    background-image: url(../img/svg/contacts-twt-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 0;
+}
+
+.map {
+    height: 573px;
+    box-shadow: 0 2px 59px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.map::before {
+    position: absolute;
+    content: "";
+    width: 391px;
+    height: 119px;
+    top: 166px;
+    left: 922px;
+    background: url(../img/svg/contacts-pointer-map.svg);
+}
+
+/*Contact us page styles end*/
+
+/*Backup-recovery page styles*/
+
+.backup-recovery {
+    padding: 169px 0 166px 0;
+    background-image: url(../img/svg/main-page-about.svg);
+}
+
+.backup-recovery__wrapper {
+    display: flex;
+}
+
+.backup-recovery__right {
+    max-width: 701px;
+    padding-top: 207px;
+    margin-left: 140px;
+}
+
+.backup-recovery__text {
+    margin: 40px 0 0 0;
+    padding-left: 5px;
+}
+
+/*Backup-recovery page styles end*/
+
 /*Footer styles*/
 
 .footer {
