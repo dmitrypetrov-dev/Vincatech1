@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+    <title>Vincatech1</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__wrapper">
+            <a class="header-logo" href="index.html">
+                <img src="img/svg/header-logo.svg" alt="Vincatech1">
+            </a>
+            <nav class="site-navigation">
+                <ul class="header-nav">
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="company.html">Company</a>
+                    </li>
+                    <li class="header-nav__item dropdown-menu">
+                        <a class="header-nav__link" href="#!">Services</a>
+                        <div class="drop-menu">
+                            <ul class="drop-menu__list">
+                                <li class="drop-menu__item"><a href="!#" class="drop-menu__link">Managed
+                                    IT</a></li>
+                                <li class="drop-menu__item"><a href="!#" class="drop-menu__link">Office
+                                    365</a></li>
+                                <li class="drop-menu__item"><a href="!#" class="drop-menu__link">Cybersecurity</a>
+                                </li>
+                                <li class="drop-menu__item"><a href="!#" class="drop-menu__link">Cloud-based
+                                    Solutions</a></li>
+                                <li class="drop-menu__item"><a href="!#" class="drop-menu__link">Backup and
+                                    Disaster Recovery</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="industry.html">Industry</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a class="header-nav__link" href="contact-us.html">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header-btn btn-blue" href="#!">Schedule meeting</a>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="contacts">
+        <div class="container">
+            <h2 class="contacts__title section-title">Contact us</h2>
+            <p class="contacts__subtitle">Fill out the form if you would like us to contact you to discuss how our team
+                can
+                help you with the best solutions</p>
+            <div class="contacts__wrapper">
+                <div class="contacts-left">
+                    <form class="form" action="#" method="post">
+                        <input class="form__field contacts-form__field" type="text" name="name" placeholder="Name"
+                               required
+                               onfocus="if (placeholder == 'Name') {placeholder = ''}"
+                               onblur="if (placeholder == '') {placeholder = 'Name'}">
+                        <input class="form__field contacts-form__field" type="email" name="email" placeholder="Email"
+                               required
+                               onfocus="if (placeholder == 'Email') {placeholder = ''}"
+                               onblur="if (placeholder == '') {placeholder = 'Email'}">
+                        <input class="form__field contacts-form__field" type="tel" name="phone" placeholder="Phone"
+                               required
+                               onfocus="if (placeholder == 'Phone') {placeholder = ''}"
+                               onblur="if (placeholder == '') {placeholder = 'Phone'}">
+                        <textarea class="textarea contacts-textarea" name="message" placeholder="Message" required
+                                  onfocus="if (placeholder == 'Message') {placeholder = ''}"
+                                  onblur="if (placeholder == '') {placeholder = 'Message'}"></textarea>
+                        <button class="submit-btn btn-blue contacts-submit" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="contacts-right">
+                    <h4 class="contacts-right__title">Address</h4>
+                    <p class="contacts-right__text">5850 San Felipe st,<br> suite 500.<br> Houston, TX 77057,
+                        USA<br><br>
+                        832-483-8599<br><br>
+                        <a href="mailto:info@vincatech1.com">info@vincatech1.com</a></p>
+                    <h4 class="contacts-right__title">Social media</h4>
+                    <div class="contacts__socials">
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a class="contacts__socials--fb contacts__socials-link" href="#!"></a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="contacts__socials--lkdn contacts__socials-link" href="#!"></a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="contacts__socials--inst contacts__socials-link" href="#!"></a>
+                            </li>
+                            <li class="social-list-item">
+                                <a class="contacts__socials--twt contacts__socials-link" href="#!"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19595.24585631754!2d-95.48049799533612!3d29.749200435155856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c3e6aacd0f13%3A0xf0d773df1e9f77ae!2zNTg1MCBTYW4gRmVsaXBlIFN0LCBIb3VzdG9uLCBUWCA3NzA1Nywg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1592843443844!5m2!1sru!2sru"
+                width="1920" height="573" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
+            <a class="footer-logo" href="index.html">
+                <img src="img/svg/footer-logo.svg" alt="Vincatech1">
+            </a>
+            <ul class="footer-nav">
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="company.html">Company</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="#!">Services</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="industry.html">Industry</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="blog.html">Blog</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a class="footer-nav__link" href="contact-us.html">Contact us</a>
+                </li>
+            </ul>
+            <a class="footer-btn btn-blue" href="#!">Schedule a meeting</a>
+        </div>
+        <div class="footer__descr">
+            We help you improve<br> your bottom Line throuh<br> the process
+        </div>
+        <div class="footer__middle">
+            <div class="footer__middle-block">
+                <div class="footer__middle__phone">
+                    <a class="phone-link" href="tel:832-483-8599">832-483-8599</a>
+                </div>
+                <div class="footer__middle__city">Houston, TX</div>
+            </div>
+            <div class="footer__middle-block">
+                5850 San Felipe st, suite 500. Houston, TX 77057, USA
+            </div>
+            <div class="footer__middle-block email-block">
+                <a class="email-link" href="mailto:info@vincatech1.com">info@vincatech1.com</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                <p class="copyright-text">2020, Vincatech1. All rights reserved.</p>
+                <a class="policy-link" href="privacy-policy.html" target="_blank">Private policy</a>
+                <a class="policy-link" href="cookies-policy.html" target="_blank">Cookie policy</a>
+            </div>
+            <div class="footer__socials">
+                <ul class="social-list">
+                    <li class="social-list-item">
+                        <a class="social-list-link social-list-link--fb" href="#!"></a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link social-list-link--lkdn" href="#!"></a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link social-list-link--inst" href="#!"></a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link social-list-link--twt" href="#!"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
