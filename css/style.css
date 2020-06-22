@@ -79,7 +79,6 @@ img {
     opacity: .7;
 }
 
-
 .dropdown-menu {
     position: relative;
 }
@@ -101,9 +100,7 @@ img {
     background: #586ccc;
     border-radius: 3px 3px 0 0;
     display: none;
-    z-index: 100;
-    box-shadow: 13px 7px 29px -11px rgba(0, 0, 0, 0.55);
-
+    z-index: 150;
 }
 
 .dropdown-menu::after {
@@ -127,7 +124,7 @@ img {
     border-radius: 0 6px 6px 6px;
     background: #586ccc;
     display: none;
-    box-shadow: 10px 10px 10px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 11px 70px rgba(0, 0, 0, 0.5);
 }
 
 .dropdown-menu:hover .drop-menu {
