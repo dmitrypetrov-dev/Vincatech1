@@ -1758,6 +1758,156 @@ li.slick-active button {
 
 /*Backup-recovery page styles end*/
 
+/*Cloud-solutions page styles*/
+
+.cloud {
+    padding: 169px 0 136px 0;
+    background-image: url(../img/svg/main-page-about.svg);
+}
+
+.cloud__wrapper {
+    display: flex;
+    margin-bottom: 83px;
+}
+
+.cloud__right {
+    max-width: 718px;
+    padding-top: 207px;
+    margin-left: 140px;
+}
+
+.cloud__right-text {
+    margin: 40px 0 0 0;
+    padding-left: 5px;
+}
+
+.cloud__title {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: -0.00107658px;
+    color: #000000;
+    margin-bottom: 46px;
+}
+
+.cloud__text-1 {
+    margin: 0 0 115px 0;
+}
+
+.cloud__text-2 {
+    margin: 0;
+}
+
+/*Cloud-solutions page styles end*/
+
+/*Office-365 page styles*/
+
+.office {
+    padding: 169px 0 144px 0;
+    background-image: url(../img/svg/main-page-about.svg);
+}
+
+.office__wrapper {
+    display: flex;
+    margin-bottom: 106px;
+}
+
+.office__right {
+    max-width: 722px;
+    padding-top: 207px;
+    margin-left: 140px;
+}
+
+.office__right-text {
+    margin: 41px 0 0 0;
+    padding-left: 5px;
+}
+
+.office__title {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: -0.00107658px;
+    color: #000000;
+    margin-bottom: 97px;
+}
+
+.office__lists {
+    display: flex;
+}
+
+.office__lists-block-1 {
+    max-width: 362px;
+    margin-right: 135px;
+}
+
+.office__lists-block-2 {
+    max-width: 427px;
+    margin-right: 114px;
+}
+
+.office__lists-block-3 {
+    max-width: 422px;
+}
+
+.office__lists-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.00064595px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.office__lists-title-1 {
+    margin: 0 0 33px 49px;
+}
+
+.office__ulist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.office__ulist-num {
+    background: #000000;
+    display: inline-block;
+    width: 6.72px;
+    height: 6.72px;
+    border-radius: 50%;
+    margin-right: 28px;
+    margin-bottom: 4px;
+}
+
+.office__ulist-1-item {
+    padding: 10px 0;
+}
+
+.office_mgn {
+    margin-left: 40px;
+}
+
+.office__lists-title-2 {
+    margin: 0 0 33px 40px;
+}
+
+.office__ulist-2-item {
+    padding: 10px 0;
+    line-height: 40px;
+}
+
+.office__lists-title-3 {
+    margin: 0 0 34px 39px;
+}
+
+.office__ulist-3-item {
+    padding: 10px 0;
+    line-height: 40px;
+}
+
+
+/*Office-365 page styles end*/
+
 /*Footer styles*/
 
 .footer {
