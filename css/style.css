@@ -1908,6 +1908,67 @@ li.slick-active button {
 
 /*Office-365 page styles end*/
 
+/*Cybersecurity page styles*/
+
+.сybersecurity {
+    padding: 169px 0 163px 0;
+    background-image: url(../img/svg/main-page-about.svg);
+}
+
+.сybersecurity__wrapper {
+    display: flex;
+    margin-bottom: 86px;
+}
+
+.сybersecurity__right {
+    max-width: 701px;
+    padding-top: 207px;
+    margin-left: 140px;
+}
+
+.сybersecurity__right-text {
+    margin: 41px 0 0 0;
+    padding-left: 5px;
+}
+
+.сybersecurity__title {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: -0.00107658px;
+    color: #000000;
+    margin-bottom: 85px;
+}
+
+.сybersecurity__columns {
+    display: flex;
+}
+
+.сybersecurity__column {
+    max-width: 385px;
+    margin-right: 155px;
+}
+
+.сybersecurity__column:last-child {
+    margin-right: 0;
+}
+
+.сybersecurity__columns-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.00064595px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 43px;
+}
+
+.сybersecurity__columns-text {
+    margin: 0;
+}
+
+/*Cybersecurity page styles end*/
+
 /*Footer styles*/
 
 .footer {
