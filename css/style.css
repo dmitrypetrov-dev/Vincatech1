@@ -1720,15 +1720,19 @@ li.slick-active button {
     height: 573px;
     box-shadow: 0 2px 59px rgba(0, 0, 0, 0.3);
     position: relative;
+    background: url(../img/svg/contacts-map.svg) center no-repeat;
+    background-size: cover;
+    opacity: 0.9;
 }
+
 
 .map::before {
     position: absolute;
     content: "";
     width: 391px;
     height: 119px;
-    top: 166px;
-    left: 922px;
+    top: 204px;
+    left: 46.5%;
     background: url(../img/svg/contacts-pointer-map.svg);
 }
 
