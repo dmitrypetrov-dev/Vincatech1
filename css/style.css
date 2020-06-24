@@ -1973,6 +1973,113 @@ li.slick-active button {
 
 /*Cybersecurity page styles end*/
 
+/*Managed page styles*/
+
+.managed {
+    padding: 169px 0 38px 0;
+    background-image: url(../img/svg/main-page-about.svg);
+}
+
+.managed__wrapper {
+    display: flex;
+    margin-bottom: 111px;
+}
+
+.managed__right {
+    max-width: 720px;
+    padding-top: 207px;
+    margin-left: 140px;
+}
+
+.managed__right-text {
+    margin: 41px 0 0 0;
+    padding-left: 5px;
+}
+
+.managed__title {
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: -0.00150722px;
+    color: #000000;
+}
+
+.managed__subtitle {
+    margin: 49px 0 112px 0;
+}
+
+.managed__icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 208px 0 67px;
+    margin-bottom: 93px;
+}
+
+.managed__lists {
+    display: flex;
+    padding: 0 0 0 26px;
+}
+
+.managed__lists-block-1 {
+    max-width: 236px;
+    margin-right: 143px;
+}
+
+.managed__lists-block-2 {
+    max-width: 193px;
+    margin-right: 182px;
+}
+
+.managed__lists-block-3 {
+    max-width: 221px;
+    margin-right: 191px;
+}
+
+.managed__lists-block-4 {
+    max-width: 269px;
+}
+
+.managed__lists-title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -0.00064595px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.managed__lists-title-1 {
+    margin: 0 0 33px 40px;
+}
+
+.managed__lists-title-2 {
+    margin: 0 0 33px 35px;
+}
+
+.managed__lists-title-3 {
+    margin: 0 0 33px 35px;
+}
+
+.managed__lists-title-4 {
+    margin: 0 0 42px 0;
+}
+
+.managed__ulist-1-item {
+    padding: 10px 0;
+}
+
+.managed__ulist-2-item {
+    padding: 10px 0;
+}
+
+.managed__ulist-3-item {
+    padding: 10px 0;
+    line-height: 40px;
+}
+
+
+/*Managed page styles end*/
+
 /*Footer styles*/
 
 .footer {
