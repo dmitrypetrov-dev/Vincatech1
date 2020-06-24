@@ -31,3 +31,24 @@ $(document).ready(function () {
         cssEase: 'linear',
     });
 });
+
+$(document).ready(function () {
+    $('.popup-meeting').on('click', function () {
+        $('.popup').addClass('open');
+    });
+    $('.popup-close').on('click', function () {
+        $('.popup').removeClass('open');
+    });
+
+    $(document).keydown(function (e) {
+        if (e.which === 27) {
+            $('.popup').removeClass('open');
+            $('.popup-2').removeClass('open');
+            $('.popup-3').removeClass('open');
+            $('.wp-video-shortcode').get(0).pause();
+        }
+    });
+});
+
+
+
