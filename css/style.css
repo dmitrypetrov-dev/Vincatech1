@@ -275,6 +275,7 @@ img {
     line-height: 88px;
     letter-spacing: -0.000973894px;
     color: #FFFFFF;
+    text-align: center;
     margin-bottom: 28px;
 }
 
@@ -638,7 +639,6 @@ li.slick-active button {
 
 .popup__field {
     border: none;
-    padding: 19px 58px;
 }
 
 .form__field:focus {
@@ -654,9 +654,10 @@ li.slick-active button {
     font-style: normal;
     font-weight: 300;
     font-size: 25px;
-    line-height: 31px;
+    line-height: 15px;
     letter-spacing: -0.000347819px;
     color: #000000;
+    overflow: visible;
 }
 
 .textarea {
@@ -669,7 +670,6 @@ li.slick-active button {
 }
 
 .popup__area {
-    padding: 22px 57px;
     border: none;
 }
 
@@ -678,7 +678,7 @@ li.slick-active button {
     font-style: normal;
     font-weight: 300;
     font-size: 25px;
-    line-height: 31px;
+    line-height: 15px;
     letter-spacing: -0.000347819px;
     color: #000000;
 }
