@@ -23,9 +23,19 @@ $(function () {
         $('.popup').removeClass('open');
     });
 
+    $('.play-icon').on('click', function () {
+        $('.popup-video').addClass('open');
+    });
+    $('.popup-video__close').on('click', function () {
+        $('.popup-video').removeClass('open');
+        $('.wp-video-shortcode').get(0).pause();
+    });
+
     $(document).keydown(function (e) {
         if (e.which === 27) {
             $('.popup').removeClass('open');
+            $('.popup-video').removeClass('open');
+            $('.wp-video-shortcode').get(0).pause();
         }
     });
 
