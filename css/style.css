@@ -1072,11 +1072,12 @@ li.slick-active button {
 /*Cookies page styles*/
 
 .cookies {
+    padding-top: 151px;
     background-image: url(../img/svg/main-page-about.svg);
 }
 
 .cookies__wrapper {
-    padding: 151px 0 117px 0;
+    padding: 0 0 117px 0;
 }
 
 .cookies__title {
@@ -1184,6 +1185,54 @@ li.slick-active button {
 
 .cookies__subtitle-5 {
     margin: 52px 0 24px 0;
+}
+
+@media screen and (max-width: 1601px) {
+
+    .cookies {
+        padding-top: 137px;
+    }
+
+    .cookies__wrapper {
+        padding: 0 0 135px 87px;
+        max-width: 1254px;
+    }
+
+    .cookies__title {
+        font-size: 50px;
+        line-height: 63px;
+        margin-bottom: 90px;
+    }
+
+    .cookies__subtitle-1 {
+        margin: 52px 0 24px 0;
+    }
+
+    .cookies-block-2 {
+        margin-bottom: 23px;
+    }
+
+    .cookies__subtitle-2 {
+        margin: 0 0 14px 0;
+        line-height: 58px;
+    }
+
+    .cookies-block-4__text br {
+        display: none;
+    }
+
+    .cookies__subtitle-3 {
+        margin: 52px 0 24px 0;
+    }
+
+    .cookies-block-5__text br:first-child {
+        display: none;
+    }
+
+    .cookies__subtitle-4 {
+        margin: 52px 0 24px 0;
+    }
+
 }
 
 /*Cookies page styles end*/
