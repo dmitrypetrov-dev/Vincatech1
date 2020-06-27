@@ -827,11 +827,12 @@ li.slick-active button {
 /*Privacy page styles*/
 
 .privacy {
+    padding-top: 150px;
     background-image: url(../img/svg/main-page-about.svg);
 }
 
 .privacy__wrapper {
-    padding: 150px 0 133px 0;
+    padding: 0 0 133px 0;
 }
 
 .privacy__title {
@@ -863,14 +864,18 @@ li.slick-active button {
 .privacy__olist {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 56px;
 }
 
 .privacy__olist-item {
     padding: 10px 0;
+    position: relative;
 }
 
 .privacy__olist-num {
+    position: absolute;
+    top: 16px;
+    left: -56px;
     background: #586CCC;
     display: inline-block;
     text-align: center;
@@ -883,7 +888,6 @@ li.slick-active button {
     letter-spacing: -0.000344507px;
     color: #FFFFFF;
     padding-top: 4.5px;
-    margin-right: 26px;
 }
 
 .privacy-block-3 {
@@ -906,21 +910,23 @@ li.slick-active button {
 .privacy__ulist {
     list-style: none;
     margin: 10px 0 35px 0;
-    padding: 0;
+    padding: 0 0 0 28px;
 }
 
 .privacy__ulist-item {
     padding: 10px 0;
+    position: relative;
 }
 
 .privacy__ulist-num {
+    position: absolute;
+    top: 27px;
+    left: -28px;
     background: #586CCC;
     display: inline-block;
     width: 6.72px;
     height: 6.72px;
     border-radius: 50%;
-    margin-right: 21px;
-    margin-bottom: 4px;
 }
 
 .privacy-block-5-text {
@@ -1066,6 +1072,86 @@ li.slick-active button {
     line-height: 42px;
 }
 
+@media screen and (max-width: 1601px) {
+
+    .privacy {
+        padding-top: 137px;
+    }
+
+    .privacy__title {
+        font-size: 50px;
+        line-height: 63px;
+        margin-bottom: 90px;
+    }
+
+    .privacy__wrapper {
+        padding: 0 0 149px 87px;
+        max-width: 1254px;
+    }
+
+    .privacy-block-2 {
+        margin: 61px 0 51px 0;
+    }
+
+    .privacy-block-3 {
+        margin-bottom: 61px;
+    }
+
+    .privacy-block-4 {
+        margin-bottom: 51px;
+    }
+
+    .privacy-block-5 {
+        margin-bottom: 61px;
+    }
+
+    .privacy-block-6 {
+        margin-bottom: 67px;
+    }
+
+    .text-1 {
+        margin-bottom: 53px;
+    }
+
+    .text-2 {
+        margin-bottom: 61px;
+    }
+
+    .text-3 {
+        margin-bottom: 57px;
+    }
+
+    .text-4 {
+        margin-bottom: 61px;
+    }
+
+    .privacy-block-7 {
+        margin-bottom: 59px;
+    }
+
+    .block-8__text1 {
+        margin-bottom: 60px;
+    }
+
+    .privacy-block-8 {
+        margin-bottom: 60px;
+    }
+
+    .block-9__text1 {
+        margin-bottom: 42px;
+    }
+
+    .privacy-block-9 {
+        margin-bottom: 60px;
+    }
+
+    .block-10__text1 {
+        margin-bottom: 60px;
+    }
+
+}
+
+
 
 /*Privacy page styles end*/
 
@@ -1117,29 +1203,27 @@ li.slick-active button {
 .cookies__ulist {
     list-style: none;
     margin: 7px 0 35px 0;
-    padding: 0;
+    padding: 0 0 0 28px;
 }
 
 .cookies__ulist-item {
     padding: 10px 0;
+    position: relative;
 }
 
 .cookies__ulist-num {
-    background: #586CCC;
-    display: inline-block;
+    position: absolute;
+    top: 27px;
+    left: -28px;
     width: 6.72px;
     height: 6.72px;
+    background: #586CCC;
+    display: inline-block;
     border-radius: 50%;
-    margin-right: 21px;
-    margin-bottom: 4px;
 }
 
 .cookies_bold {
     font-weight: bold;
-}
-
-.cookies_mgn {
-    margin-left: 28px;
 }
 
 .cookies__subtitle-2 {
@@ -1150,11 +1234,25 @@ li.slick-active button {
 .cookies__ulist-2 {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 28px;
+}
+
+.cookies__ulist-2-item {
+    position: relative;
 }
 
 .cookies__ulist-2-item:last-child {
     padding-top: 23px;
+}
+
+.cookies__ulist-2-num-1 {
+    top: 17px;
+    left: -27px;
+}
+
+.cookies__ulist-2-num-2 {
+    top: 40px;
+    left: -27px;
 }
 
 .cookies__subtitle-3 {
@@ -1163,12 +1261,18 @@ li.slick-active button {
 
 .cookies__ulist-3 {
     margin: 21px 0 21px 0;
-    padding: 0;
+    padding: 0 0 0 28px;
     list-style: none;
 }
 
 .cookies__ulist-3-item {
     padding: 21px 0;
+    position: relative;
+}
+
+.cookies__ulist-3-num {
+    top: 38px;
+    left: -27px;
 }
 
 .cookies__ulist-3 a {
@@ -1232,6 +1336,7 @@ li.slick-active button {
     .cookies__subtitle-4 {
         margin: 52px 0 24px 0;
     }
+
 
 }
 
