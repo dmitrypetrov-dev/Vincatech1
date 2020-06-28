@@ -555,7 +555,7 @@ img {
 /*Testimonials styles*/
 
 .testimonials {
-    padding: 174px 0 215px 0;
+    padding: 166px 0 215px 0;
     background: url(../img/main-page-testimonials.jpg) no-repeat;
     background-position: 0 -149px;
     background-size: cover;
@@ -568,7 +568,7 @@ img {
 
 .slider {
     max-width: 1018px;
-    margin: 0 auto 206px auto;
+    margin: 0 auto 166px auto;
 }
 
 .slider-2 {
@@ -868,7 +868,7 @@ li.slick-active button {
     }
 
     .testimonials {
-        padding-top: 85px;
+        padding-top: 147px;
         padding-bottom: 198px;
         background-position: 0 -47px;
     }
