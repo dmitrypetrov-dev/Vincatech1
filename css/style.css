@@ -3583,7 +3583,131 @@ li.slick-active button {
 
 @media screen and (max-width: 1200px) {
 
+    .footer {
+        padding: 109px 0 146px 0;
+    }
 
+    .footer__top {
+        align-items: flex-start;
+    }
+
+    .footer-logo {
+        width: 131px;
+    }
+
+    .footer-nav {
+        width: 524px;
+        height: 31px;
+        margin: 0 0 0 53px;
+        padding: 0 0 0 0;
+    }
+
+    .footer-nav__link {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .footer-btn {
+        width: 183px;
+        height: 45px;
+    }
+
+    .footer__descr {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.000192924px;
+        padding: 0;
+        margin-bottom: 4px;
+    }
+
+    .footer__middle {
+        padding: 39px 0 38px 0;
+    }
+
+    .phone-link {
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.000241155px;
+    }
+
+    .footer__middle__city {
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.000241155px;
+        padding-top: 3px;
+    }
+
+    .footer__middle-block:first-child {
+        padding-right: 41px;
+    }
+
+    .footer__middle-block:nth-child(2) {
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: -0.000236517px;
+        padding: 3px 47px 0 38px;
+    }
+
+    .footer__middle__phone {
+        margin-right: 16px;
+    }
+
+    .email-block {
+        padding: 3px 0 0 34px;
+    }
+
+    .email-link {
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: -0.000366039px;
+    }
+
+    .copyright-text {
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: -0.000204982px;
+        margin-right: 39px;
+        opacity: .3;
+    }
+
+    .policy-link {
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: -0.000204982px;
+        padding-bottom: 0;
+        height: 25px;
+    }
+
+    .footer__bottom {
+        padding-top: 82px;
+    }
+
+    .footer__socials {
+        top: 75px;
+        right: -14px;
+    }
+
+    .social-list-link {
+        width: 36px;
+        height: 36px;
+        margin-right: 16px;
+    }
+
+    .social-list-link--fb {
+        background-size: 7px;
+    }
+
+    .social-list-link--lkdn {
+        background-size: 12px
+    }
+
+    .social-list-link--inst {
+        background-size: 14px;
+    }
+
+    .social-list-link--twt {
+        background-size: 14px;
+    }
 
 }
 
