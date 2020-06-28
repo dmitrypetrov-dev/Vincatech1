@@ -907,6 +907,73 @@ li.slick-active button {
 
 }
 
+@media screen and (max-width: 1200px) {
+
+    .feedback {
+        height: 785px;
+    }
+
+    .feedback-title {
+        font-size: 50px;
+        line-height: 63px;
+        letter-spacing: -0.00107658px;
+        margin-right: 42px;
+        margin-bottom: 27px;
+    }
+
+    .feedback-subtitle {
+        font-size: 17px;
+        line-height: 34px;
+        letter-spacing: -0.000366039px;
+    }
+
+    .feedback__left {
+        padding: 109px 121px 0 0;
+    }
+
+    .feedback__right {
+        padding: 124px 0 0 73px;
+    }
+
+    .form__field {
+        width: 434px;
+        height: 56px;
+        margin-bottom: 27px;
+        padding: 15px 20px;
+    }
+
+    .textarea {
+        width: 434px;
+        height: 207px;
+        padding: 24px 20px;
+    }
+
+    .form__field::placeholder {
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: -0.000236517px;
+    }
+
+
+    .textarea::placeholder {
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: -0.000236517px;
+    }
+
+    .submit-btn {
+        width: 250px;
+        height: 57px;
+        left: 92px;
+        bottom: -85px;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.00025838px;
+    }
+
+
+}
+
 /*Feedback end*/
 
 @media screen and (max-width: 1600px) {
@@ -2534,7 +2601,7 @@ li.slick-active button {
 @media screen and (max-width: 1200px) {
 
     .backup-recovery {
-        padding: 127px 0 134px 0;
+        padding: 127px 0 98px 0;
     }
 
     .backup-recovery__wrapper {
@@ -3511,6 +3578,12 @@ li.slick-active button {
         width: 682px;
         margin: 0 28px 0 0;
     }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
 
 }
 
