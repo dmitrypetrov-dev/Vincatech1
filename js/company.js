@@ -7,7 +7,7 @@ $(document).ready(function () {
     });
 
     $('.dropdown-menu').click(function (event) {
-        $('.drop-menu-burger').toggleClass('open');
+        $('.drop-menu-burger').slideToggle();
         $('.dropdown-menu').toggleClass('arrow-rotate');
     });
 });
