@@ -1,4 +1,21 @@
-// jquery слайдер
+// burger menu
+
+$(document).ready(function () {
+    $('.header-burger').click(function (event) {
+        $('.header-burger__menu, .site-navigation').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+
+    if ($(window).width() < 769) {
+        $('.dropdown-menu').click(function (event) {
+            $('.drop-menu-burger').toggleClass('open');
+            $('.dropdown-menu').toggleClass('arrow-rotate');
+        });
+    }
+});
+
+// jquery slider
+
 $(document).ready(function () {
     $('.slider-2').slick({
         arrows: false,
@@ -12,7 +29,7 @@ $(document).ready(function () {
     });
 });
 
-//модальные окна
+//modal windows
 
 $(function () {
 
@@ -41,7 +58,7 @@ $(function () {
 
 });
 
-// анимация цифр
+// numbers animation
 
 $(function () {
 
