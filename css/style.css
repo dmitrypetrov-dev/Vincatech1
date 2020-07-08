@@ -396,6 +396,7 @@ img {
         padding: 107px 71px 0 69px;
         transition: all .5s ease;
         overflow: auto;
+        z-index: 500;
     }
 
     .header-nav {
