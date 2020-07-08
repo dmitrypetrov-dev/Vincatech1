@@ -6,12 +6,10 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 
-    if ($(window).width() < 769) {
-        $('.dropdown-menu').click(function (event) {
-            $('.drop-menu-burger').toggleClass('open');
-            $('.dropdown-menu').toggleClass('arrow-rotate');
-        });
-    }
+    $('.dropdown-menu').click(function (event) {
+        $('.drop-menu-burger').toggleClass('open');
+        $('.dropdown-menu').toggleClass('arrow-rotate');
+    });
 });
 
 // jquery slider
