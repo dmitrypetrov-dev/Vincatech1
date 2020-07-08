@@ -4538,6 +4538,78 @@ li.slick-active button {
 
 }
 
+@media screen and (max-width: 768px) {
+
+    .contacts {
+        padding: 75px 0 0 0;
+    }
+
+    .contacts__title {
+        margin-bottom: 30px;
+    }
+
+    .contacts__subtitle {
+        line-height: 40px;
+        max-width: 100%;
+        margin: 0 0 72px 0;
+    }
+
+    .contacts__wrapper {
+        display: block;
+    }
+
+    .contacts-left {
+        margin-bottom: 121px;
+    }
+
+    .contacts-form__field {
+        width: 626px;
+        height: 56px;
+        border: 1px solid #CCCCCC;
+        margin-bottom: 27px;
+    }
+
+    .contacts-textarea {
+        width: 626px;
+        border: 1px solid #CCCCCC;
+    }
+
+    .contacts-submit {
+        width: 250px;
+        height: 57px;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.00025838px;
+    }
+
+    .contacts-right {
+        padding: 0 21px 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts-right__title {
+        padding-left: 0;
+    }
+
+    .contacts-right__text {
+        margin: 35px 0 68px 0;
+    }
+
+    .contacts-right div:first-child {
+        padding-left: 37px;
+        position: relative;
+    }
+
+    .contacts__email {
+        display: inline-block;
+        position: absolute;
+        top: 197px;
+        left: 359px;
+    }
+
+}
+
 /*Contact us page styles end*/
 
 /*Backup-recovery page styles*/
@@ -4820,6 +4892,41 @@ li.slick-active button {
 
     .cloud__text-2 {
         padding-right: 3px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .cloud {
+        padding: 83px 0 84px 0;
+    }
+
+    .cloud__wrapper {
+        justify-content: space-between;
+        margin-bottom: 49px;
+    }
+
+    .cloud__left {
+        width: 307px;
+        padding-left: 0;
+    }
+
+    .cloud__right {
+        max-width: 279px;
+        padding: 53px 0 0 10px;
+    }
+
+    .cloud__title {
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: -0.00064595px;
+        padding: 0 260px 0 0;
+        margin-bottom: 36px;
+    }
+
+    .cloud__text-1 {
+        margin-bottom: 51px;
     }
 
 }
@@ -5339,6 +5446,95 @@ li.slick-active button {
 
 }
 
+@media screen and (max-width: 768px) {
+
+    .office {
+        padding: 83px 0 108px 0;
+    }
+
+    .office__wrapper {
+        justify-content: space-between;
+        margin-bottom: 71px;
+    }
+
+    .office__left {
+        width: 307px;
+        padding-left: 1px;
+    }
+
+    .office__right {
+        max-width: 279px;
+        padding: 53px 0 0 10px;
+    }
+
+    .office__right-text {
+        margin: 35px 0 0 0;
+        padding-left: 0;
+    }
+
+    .office__title {
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: -0.00064595px;
+    }
+
+    .office__lists {
+        justify-content: space-between;
+    }
+
+    .office__lists-block-1 {
+        max-width: 180px;
+        margin-right: 0;
+    }
+
+    .office__lists-title-1 {
+        margin: 2px 0 26px 20px;
+    }
+
+    .office__ulist-1-item:nth-child(2) {
+        margin-bottom: 1px;
+    }
+
+    .office__ulist-1-item:nth-child(3) br {
+        display: none;
+    }
+
+    .office__ulist-1-item:nth-child(5) {
+        margin-bottom: 2px;
+    }
+
+    .office__lists-block-2 {
+        max-width: 180px;
+        margin-right: 0;
+        padding-left: 2px;
+    }
+
+    .office__lists-title-2 {
+        margin: 2px 0 26px 19px;
+    }
+
+    .office__ulist-2-item:nth-child(3) br {
+        display: none;
+    }
+
+    .office__lists-block-3 {
+        max-width: 180px;
+        padding-left: 4px;
+    }
+
+    .office__lists-title-3 {
+        margin: 2px 0 26px 20px;
+    }
+
+    .office__ulist-3-item:first-child {
+        margin-bottom: 0;
+    }
+
+    .office__ulist-3-item:nth-child(2) {
+        margin-bottom: 0;
+    }
+
+}
 
 /*Office-365 page styles end*/
 
@@ -5506,6 +5702,54 @@ li.slick-active button {
 
     .сybersecurity__column:last-child {
         max-width: 231px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .сybersecurity {
+        padding: 83px 0 89px 0;
+    }
+
+    .сybersecurity__wrapper {
+        justify-content: space-between;
+        margin-bottom: 52px;
+    }
+
+    .сybersecurity__left {
+        width: 307px;
+        padding-left: 0;
+    }
+
+    .сybersecurity__right {
+        max-width: 279px;
+        padding: 53px 0 0 10px;
+    }
+
+    .сybersecurity__title {
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: -0.00064595px;
+    }
+
+    .сybersecurity__columns {
+        justify-content: space-between;
+        padding-right: 16px;
+    }
+
+    .сybersecurity__column {
+        max-width: 162px;
+        margin-right: 0;
+    }
+
+    .сybersecurity__column:last-child {
+        max-width: 160px;
+    }
+
+    .сybersecurity__columns-title {
+        padding-right: 15px;
+        margin-bottom: 38px;
     }
 
 }
