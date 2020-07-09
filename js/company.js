@@ -6,9 +6,9 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 
-    $('.dropdown-menu').click(function (event) {
+    $('.burger-menu').click(function (event) {
         $('.drop-menu-burger').slideToggle();
-        $('.dropdown-menu').toggleClass('arrow-rotate');
+        $('.burger-menu').toggleClass('arrow-rotate');
     });
 });
 
