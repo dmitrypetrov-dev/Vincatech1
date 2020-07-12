@@ -1859,14 +1859,23 @@ li.slick-active button {
 
     .partners img:nth-child(2) {
         margin-right: 0;
+        position: absolute;
+        top: 19px;
+        left: 138px;
     }
 
     .partners img:nth-child(3) {
         margin-right: 0;
+        position: absolute;
+        top: 22px;
+        left: 316px;
     }
 
     .partners img:nth-child(4) {
-        margin-right: 25px;
+        margin-right: 0;
+        position: absolute;
+        top: 3px;
+        right: 179px;
     }
 
 }
