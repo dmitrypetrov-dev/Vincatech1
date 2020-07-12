@@ -1755,6 +1755,123 @@ li.slick-active button {
 
 }
 
+@media screen and (max-width: 768px) {
+
+    .intro {
+        padding-top: 133px;
+    }
+
+    .intro__title {
+        font-size: 50px;
+        line-height: 63px;
+        letter-spacing: -0.00107658px;
+        margin-bottom: 9px;
+    }
+
+    .intro__subtitle {
+        margin-bottom: 52px;
+        padding-left: 3px;
+    }
+
+    .about {
+        padding-top: 19px;
+        padding-bottom: 74px;
+    }
+
+    .about__wrapper {
+        display: block;
+        margin-bottom: 63px;
+    }
+
+    .about__block:first-child {
+        width: 424px;
+    }
+
+    .about__block:last-child {
+        width: 100%;
+        padding-top: 26px;
+    }
+
+    .about__title {
+        max-width: 556px;
+        margin-bottom: 30px;
+    }
+
+    .about__subtitle {
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    .about__columns-item {
+        max-width: 170px;
+    }
+
+    .about__columns-item:nth-child(2) {
+        margin-right: 20px;
+    }
+
+    .about__columns-img {
+        margin-bottom: 12px;
+        position: relative;
+    }
+
+    .about__columns-img img {
+        position: absolute;
+        top: 0;
+        left: -10px;
+        transform: scale(.7);
+    }
+
+    .about__columns-title-1 {
+        margin: 15px 0 64px 0;
+    }
+
+    .about__columns-title-2 {
+        margin: 0 0 42px 0;
+    }
+
+    .about__columns-title-3 {
+        margin: 0 0 67px 0;
+    }
+
+    .testimonials {
+        padding-top: 112px;
+        padding-bottom: 108px;
+        background-position: -263px 184px;
+    }
+
+    .slider {
+        margin-bottom: 84px;
+    }
+
+    .partners {
+        max-width: 100%;
+        padding: 0 51px 0 56px;
+    }
+
+    .partners img {
+        transform: scale(0.57);
+    }
+
+    .partners img:first-child {
+        margin-right: 0;
+    }
+
+    .partners img:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .partners img:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .partners img:nth-child(4) {
+        margin-right: 25px;
+    }
+
+}
+
+
 /*Main page styles end*/
 
 /*Privacy page styles*/
@@ -5398,6 +5515,12 @@ li.slick-active button {
         font-size: 30px;
         line-height: 38px;
         letter-spacing: -0.00064595px;
+    }
+
+    .about__title {
+        font-size: 45px;
+        line-height: 56px;
+        letter-spacing: -0.000968926px;
     }
 
     .backup-recovery__title {
