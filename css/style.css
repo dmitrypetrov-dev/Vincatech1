@@ -3663,7 +3663,15 @@ li.slick-active button {
     }
 
     .popup-video__close {
-        right: 58px;
+        right: 97px;
+    }
+
+    .popup-video__wrapper {
+        max-width: 560px;
+    }
+
+    .wp-video-shortcode {
+        width: 100%;
     }
 
 }
@@ -5018,6 +5026,7 @@ li.slick-active button {
     }
 
     .blog-post__date {
+        position: static;
         padding-left: 0;
     }
 
