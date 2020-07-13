@@ -12,6 +12,28 @@ $(document).ready(function () {
     });
 });
 
+//header scroll
+
+(function () {
+    var header = document.querySelector('.header');
+    var headerBurger = document.querySelector('.header-burger__menu');
+    var mobileLogo = document.querySelector('.mobile-logo');
+    var mobileLogoImg = document.querySelector('.mobile-logo__img');
+    window.onscroll = function () {
+        if (window.pageYOffset > 50) {
+            header.classList.add('header_active');
+            headerBurger.classList.add('header_active');
+            mobileLogo.classList.add('active');
+            mobileLogoImg.src = "img/svg/header-logo.svg";
+        } else {
+            header.classList.remove('header_active');
+            headerBurger.classList.remove('header_active');
+            mobileLogo.classList.remove('active');
+            mobileLogoImg.src = "img/svg/mobile-logo.svg";
+        }
+    };
+})();
+
 // jquery slider
 
 $(document).ready(function () {
