@@ -71,6 +71,13 @@ img {
 }
 
 @media screen and (max-width: 375px) {
+    body {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -0.000344507px;
+    }
+
     .container {
         max-width: 305px;
         margin: 0 auto;
@@ -5789,10 +5796,6 @@ li.slick-active button {
 
     .backup-recovery__text {
         margin: 21px 0 0 0;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: -0.000344507px;
         padding-left: 0;
     }
 
@@ -6580,6 +6583,41 @@ li.slick-active button {
 
     .office__ulist-3-item:nth-child(2) {
         margin-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .office {
+        padding: 0 0 13px 0;
+        background: url(../img/office-365-page-bg.jpg) top no-repeat, url(../img/svg/main-page-about.svg);
+    }
+
+    .office__wrapper {
+        display: block;
+        padding-top: 200px;
+    }
+
+    .office__left {
+        display: none;
+    }
+
+    .office__right {
+        margin: 255px 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .office__right-text {
+        margin: 21px 0 0 0;
+    }
+
+    .office__title {
+        display: none;
+    }
+
+    .office__lists {
+        display: none;
     }
 
 }
