@@ -3097,6 +3097,31 @@ li.slick-active button {
     }
 }
 
+@media screen and (max-width: 375px) {
+
+    .cookies {
+        padding-top: 254px;
+        background: url(../img/cookies-page-bg.jpg) top no-repeat, url(../img/svg/main-page-about.svg);
+    }
+
+    .cookies__title {
+        margin-bottom: 23px;
+    }
+
+    .cookies__wrapper {
+        padding: 0 0 71px 0;
+    }
+
+    .cookies__subtitle-1 {
+        margin: 62px 0 23px 0;
+    }
+
+    .cookies-block-2 {
+        margin-bottom: 65px;
+    }
+
+}
+
 /*Cookies page styles end*/
 
 /*Company page styles*/
@@ -5585,6 +5610,7 @@ li.slick-active button {
     .contacts-submit {
         width: 250px;
         height: 57px;
+        transform: none;
         font-size: 12px;
         line-height: 15px;
         letter-spacing: -0.00025838px;
@@ -5614,6 +5640,88 @@ li.slick-active button {
         position: absolute;
         top: 197px;
         left: 359px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .contacts {
+        padding: 200px 0 87px 0;
+        background: url(../img/contact-page-bg.jpg) top no-repeat, url(../img/svg/main-page-about.svg);
+    }
+
+    .contacts__title {
+        margin: 255px 0 19px 0;
+    }
+
+    .contacts__subtitle {
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 40px;
+        letter-spacing: -0.000473697px;
+        margin: 0 0 70px 0;
+    }
+
+    .contacts-form__field {
+        width: 100%;
+        height: 65px;
+        margin-bottom: 20px;
+    }
+
+    .contacts-textarea {
+        width: 100%;
+    }
+
+    .contacts__email {
+        top: 204px;
+        left: 38px;
+    }
+
+    .contacts-right div:first-child {
+        width: 233px;
+        margin: 0 auto;
+        padding: 0 0 0 0;
+    }
+
+    .contacts-right div:last-child {
+        display: none;
+    }
+
+    .contacts-submit {
+        width: 239px;
+        height: 67px;
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: -0.000366039px;
+        margin: 48px auto 0 auto;
+    }
+
+    .contacts-left {
+        margin-bottom: 101px;
+    }
+
+    .contacts-right {
+        padding: 0;
+    }
+
+    .contacts-right__title {
+        text-align: center;
+    }
+
+    .contacts-right__text {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -0.000222604px;
+        text-align: center;
+        margin: 41px 0 20px 0;
+    }
+
+    .contacts-right__text br:nth-child(1),
+    .contacts-right__text br:nth-child(2) {
+        display: none;
     }
 
 }
