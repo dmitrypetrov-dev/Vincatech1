@@ -5982,6 +5982,44 @@ li.slick-active button {
 
 }
 
+@media screen and (max-width: 375px) {
+
+    .cloud {
+        padding: 0 0 81px 0;
+        background: url(../img/cloud-page-bg.jpg) top no-repeat, url(../img/svg/main-page-about.svg);
+    }
+
+    .cloud__wrapper {
+        display: block;
+        padding-top: 200px;
+        margin-bottom: 59px;
+    }
+
+    .cloud__left {
+        display: none;
+    }
+
+    .cloud__right {
+        margin: 255px 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .cloud__right-text {
+        margin: 21px 0 0 0;
+    }
+
+    .cloud__title {
+        line-height: 42px;
+        padding: 0;
+        margin-bottom: 21px;
+    }
+
+    .cloud__text-1 {
+        margin-bottom: 58px;
+    }
+
+}
+
 
 /*Cloud-solutions page styles end*/
 
@@ -6840,6 +6878,58 @@ li.slick-active button {
 
 }
 
+@media screen and (max-width: 375px) {
+
+    .сybersecurity {
+        padding: 0 0 46px 0;
+        background: url(../img/cybersecurity-page-bg.jpg) top no-repeat, url(../img/svg/main-page-about.svg);
+    }
+
+    .сybersecurity__wrapper {
+        display: block;
+        padding-top: 200px;
+        margin-bottom: 61px;
+    }
+
+    .сybersecurity__left {
+        display: none;
+    }
+
+    .сybersecurity__right {
+        margin: 255px 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .сybersecurity__right-text {
+        margin: 21px 0 0 0;
+    }
+
+    .сybersecurity__title {
+        margin-bottom: 42px;
+    }
+
+    .сybersecurity__columns {
+        display: block;
+        padding-right: 0;
+        padding-left: 1px;
+    }
+
+    .сybersecurity__column {
+        max-width: 275px;
+        margin-bottom: 40px;
+    }
+
+    .сybersecurity__column:last-child {
+        max-width: 275px;
+    }
+
+    .сybersecurity__columns-title {
+        margin-bottom: 19px;
+    }
+
+}
+
+
 /*Cybersecurity page styles end*/
 
 /*Managed page styles*/
@@ -7378,6 +7468,40 @@ li.slick-active button {
     }
 
     .managed__lists-block-4 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .managed {
+        padding: 0 0 57px 0;
+        background: url(../img/managed-page-bg.jpg) top no-repeat, url(../img/svg/main-page-about.svg);
+    }
+
+    .managed__wrapper {
+        display: block;
+        padding-top: 200px;
+    }
+
+    .managed__left {
+        display: none;
+    }
+
+    .managed__right {
+        margin: 255px 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .managed__right-text {
+        margin: 21px 0 0 0;
+    }
+
+    .managed__title,
+    .managed__subtitle,
+    .managed__icons,
+    .managed__lists {
         display: none;
     }
 
