@@ -942,6 +942,71 @@ img {
     }
 }
 
+@media screen and (max-width: 375px) {
+
+    .popup__body {
+        width: 342px;
+        height: 1026px;
+    }
+
+    .popup__wrapper {
+        padding: 89px 0 0 0;
+    }
+
+    .popup__title {
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 31px;
+        letter-spacing: -0.000347819px;
+        margin-bottom: 14px;
+    }
+
+    .popup__subtitle {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -0.000344507px;
+        max-width: 275px;
+        margin: 0 auto 36px auto;
+    }
+
+    .popup__subtitle br:last-child {
+        display: inline;
+    }
+
+    .popup__form {
+        padding-left: 33px;
+    }
+
+    .popup-close {
+        width: 57px;
+        height: 57px;
+    }
+
+    .popup-close__block::before {
+        width: 27px;
+        height: 1px;
+        top: 28px;
+        right: 15px;
+    }
+
+    .popup-close__block::after {
+        width: 27px;
+        height: 1px;
+        top: 28px;
+        right: 15px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .popup__form {
+        padding-left: 19px;
+    }
+
+}
+
 /*Pop-up styles end*/
 
 /*Main page styles*/
@@ -1622,8 +1687,18 @@ li.slick-active button {
         border-radius: 4px;
     }
 
+    .popup__field {
+        width: 275px;
+        height: 65px;
+    }
+
     .textarea {
         border-radius: 4px;
+    }
+
+    .popup__area {
+        width: 275px;
+        height: 206px;
     }
 
     .submit-btn {
@@ -1633,6 +1708,19 @@ li.slick-active button {
         line-height: 21px;
         letter-spacing: -0.000366039px;
         bottom: -116px;
+    }
+
+    .popup-submit {
+        left: 52px;
+        bottom: -99px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .popup-submit {
+        left: 36px;
     }
 
 }
