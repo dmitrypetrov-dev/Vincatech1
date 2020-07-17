@@ -46,7 +46,7 @@ $(document).ready(function () {
 // jquery slider
 
 $(document).ready(function () {
-    if ($(".slider").length) {
+    if ($(".slider").length && $(window).width() > 375) {
         $('.slider').slick({
             arrows: false,
             dots: true,

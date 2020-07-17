@@ -25,9 +25,9 @@ $(document).ready(function () {
     var mobileLogo = document.querySelector('.mobile-logo');
     var mobileLogoImg = document.querySelector('.mobile-logo__img');
     var previousScroll = 0;
-    $(window).scroll(function(){
+    $(window).scroll(function () {
         var currentScroll = $(this).scrollTop();
-        if (currentScroll > previousScroll || window.pageYOffset < 50){
+        if (currentScroll > previousScroll || window.pageYOffset < 50) {
             header.classList.remove('header_active');
             headerBurger.classList.remove('header_active');
             mobileLogo.classList.remove('active');
@@ -45,16 +45,18 @@ $(document).ready(function () {
 // jquery slider
 
 $(document).ready(function () {
-    $('.slider-2').slick({
-        arrows: false,
-        dots: true,
-        infinite: true,
-        fade: true,
-        dotsClass: 'slider-buttons',
-        autoplay: 1500,
-        speed: 1000,
-        cssEase: 'linear',
-    });
+    if ($(window).width() > 375) {
+        $('.slider-2').slick({
+            arrows: false,
+            dots: true,
+            infinite: true,
+            fade: true,
+            dotsClass: 'slider-buttons',
+            autoplay: 1500,
+            speed: 1000,
+            cssEase: 'linear',
+        });
+    }
 });
 
 //modal windows
