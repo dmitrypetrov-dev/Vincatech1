@@ -603,7 +603,7 @@ img {
 @media screen and (max-width: 375px) {
 
     .header {
-        position: fixed;
+        position: absolute;
         top: 0;
         width: 100%;
         box-shadow: none;
@@ -613,9 +613,12 @@ img {
     }
 
     header.header_active {
+        position: fixed;
+        top: 0;
+        width: 100%;
         padding: 23px 0 22px 0;
         background-color: #fff;
-        box-shadow: 0 2px 59px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     }
 
     header.header_active .header__wrapper {
@@ -1204,6 +1207,7 @@ img {
 
 .slider__item {
     outline: none;
+    z-index: 100 !important;
 }
 
 .slick-list {
@@ -2244,16 +2248,70 @@ li.slick-active button {
 
     .about__columns {
         display: block;
+        position: relative;
+        height: 663px;
+    }
+
+    .about__columns .slick-track {
+        position: relative;
+        height: 609px;
+    }
+
+    .about__columns .slider-buttons {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 24px;
+    }
+
+    .about__columns .slick-list {
+        position: absolute;
+        top: 0;
+        left: -20px;
+        width: 315px;
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
     }
 
     .about__columns-item {
-        width: 314px;
-        max-width: 314px;
-        height: 607px;
-        margin: 0 auto;
+        width: 315px;
+        max-width: 315px;
+        height: 609px;
         background: #fff;
         border: 1px solid #F0F0F0;
-        margin-bottom: 26px;
+        padding: 29px 0 0 0;
+        margin-bottom: 23px;
+    }
+
+    .about__columns-item.slick-center {
+        width: 315px;
+        height: 609px;
+    }
+
+    .about__columns-img {
+        max-width: 190px;
+        margin: 0 0 0 61px;
+        height: 89px;
+    }
+
+    .about__columns-title {
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 31px;
+        letter-spacing: -0.000538292px;
+    }
+
+    .about__columns-title {
+        margin: 0 0 12px 61px;
+    }
+
+    .about__columns-text {
+        max-width: 190px;
+        margin: 0 0 0 61px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -0.000344507px;
     }
 
     .testimonials {
