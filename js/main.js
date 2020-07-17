@@ -19,20 +19,24 @@ $(document).ready(function () {
     var headerBurger = document.querySelector('.header-burger__menu');
     var mobileLogo = document.querySelector('.mobile-logo');
     var mobileLogoImg = document.querySelector('.mobile-logo__img');
-    window.onscroll = function () {
-        if (window.pageYOffset > 50) {
-            header.classList.add('header_active');
-            headerBurger.classList.add('header_active');
-            mobileLogo.classList.add('active');
-            mobileLogoImg.src = "img/svg/header-logo.svg";
-        } else {
+    var previousScroll = 0;
+    $(window).scroll(function(){
+        var currentScroll = $(this).scrollTop();
+        if (currentScroll > previousScroll || window.pageYOffset < 50){
             header.classList.remove('header_active');
             headerBurger.classList.remove('header_active');
             mobileLogo.classList.remove('active');
             mobileLogoImg.src = "img/svg/mobile-logo.svg";
+        } else {
+            header.classList.add('header_active');
+            headerBurger.classList.add('header_active');
+            mobileLogo.classList.add('active');
+            mobileLogoImg.src = "img/svg/header-logo.svg";
         }
-    };
-})();
+        previousScroll = currentScroll;
+    });
+}());
+
 
 // jquery slider
 
@@ -46,7 +50,7 @@ $(document).ready(function () {
             dotsClass: 'slider-buttons',
             autoplay: 1500,
             speed: 1000,
-            cssEase: 'linear',
+            cssEase: 'linear'
         });
     }
 });
@@ -90,6 +94,8 @@ $(document).ready(function () {
         $('html, body').animate({scrollTop: dn}, 500);
     });
 });
+
+
 
 
 

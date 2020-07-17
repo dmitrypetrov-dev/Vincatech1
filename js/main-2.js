@@ -8,9 +8,15 @@ $(document).ready(function () {
             infinite: true,
             fade: false,
             dotsClass: 'slider-buttons',
-            autoplay: 1500,
-            speed: 1500,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            speed: 2000,
             cssEase: 'linear',
+            centerMode: true,
+            centerPadding: '0',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            variableWidth: true
         });
     }
 });
