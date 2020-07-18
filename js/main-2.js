@@ -10,13 +10,12 @@ $(document).ready(function () {
             dotsClass: 'slider-buttons',
             autoplay: true,
             autoplaySpeed: 4000,
-            speed: 2000,
+            speed: 400,
             cssEase: 'linear',
             centerMode: true,
             centerPadding: '0',
             slidesToShow: 1,
             slidesToScroll: 1,
-            variableWidth: true
         });
     }
 });
