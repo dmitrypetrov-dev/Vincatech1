@@ -5,7 +5,7 @@ $(document).ready(function () {
         $('.about-slider').slick({
             arrows: false,
             dots: true,
-            infinite: true,
+            infinite: false,
             fade: false,
             dotsClass: 'slider-buttons',
             autoplay: false,
