@@ -1241,6 +1241,10 @@ input, textarea {
     margin: 0;
 }
 
+.about-slider {
+    display: none;
+}
+
 /*About styles end*/
 
 /*Testimonials styles*/
@@ -2306,7 +2310,7 @@ li.slick-active button {
     }
 
     .about__wrapper {
-        margin-bottom: 110px;
+        margin-bottom: 10px;
     }
 
     .about__block:first-child {
@@ -2323,18 +2327,27 @@ li.slick-active button {
     }
 
     .about__columns {
-        display: block;
-        position: relative;
-        height: 663px;
-    }
-
-    .slick-list {
-        overflow: visible;
+        display: none;
     }
 
     .about__columns .slick-track {
         position: relative;
         height: 609px;
+    }
+
+    .about-slider {
+        display: block;
+        height: 707px;
+        position: relative;
+    }
+
+    .slick-list {
+        height: 100%;
+    }
+
+    .slick-track {
+        height: 100%;
+        padding: 50px 0;
     }
 
     .about__columns .slider-buttons {
@@ -2345,43 +2358,34 @@ li.slick-active button {
         margin-top: 0;
     }
 
-    .about__columns-item {
+    .about-slider__item {
         width: 275px;
         max-width: 275px;
-        height: 508px;
+        height: 607px;
         background: #fff;
         border: 1px solid #F0F0F0;
         padding: 29px 0 0 0;
-        margin: 0 15px 23px 10px;
-        transform: scale(0);
-        visibility: hidden;
-        transition: all .5s ease;
-    }
-
-    .about__columns-item.slick-center {
-        transform: scale(1.2);
-        visibility: visible;
+        margin: 0 10px 23px 10px;
         box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5);
     }
 
     .about__columns-img {
         max-width: 190px;
-        margin: 0 0 0 45px;
+        margin: 0 0 21px 45px;
         height: 68px;
     }
 
     .about__columns-img img {
-        top: -11px;
-        left: -16px;
-        transform: scale(.6);
+        top: 2px;
+        left: -12px;
     }
 
     .about__columns-title {
         font-weight: 900;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 31px;
         letter-spacing: -0.000538292px;
-        margin: 0 0 7px 44px;
+        margin: 0 0 12px 43px;
     }
 
     .about__columns-title-2 {
@@ -2389,16 +2393,22 @@ li.slick-active button {
     }
 
     .about__columns-text {
-        max-width: 155px;
-        margin: 0 0 0 44px;
+        max-width: 190px;
+        margin: 0 0 0 43px;
         font-weight: normal;
-        font-size: 13px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 30px;
         letter-spacing: -0.000344507px;
     }
 
+    .slider-buttons {
+        position: absolute;
+        bottom: -6px;
+        left: 167px;
+    }
+
     .testimonials {
-        padding-top: 26px;
+        padding-top: 82px;
         padding-bottom: 34px;
         background: none;
     }
