@@ -621,14 +621,14 @@ input, textarea {
         z-index: 400;
     }
 
-    header.header_active {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        padding: 15px 0 16px 0;
-        background-color: #fff;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    }
+    /*header.header_active {*/
+    /*    position: fixed;*/
+    /*    top: 0;*/
+    /*    width: 100%;*/
+    /*    padding: 15px 0 16px 0;*/
+    /*    background-color: #fff;*/
+    /*    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);*/
+    /*}*/
 
     header.header_active .header__wrapper {
         align-items: flex-end;
@@ -1428,15 +1428,18 @@ li.slick-active button {
 .textarea {
     width: 641px;
     height: 216px;
+    max-height: 350px;
     border: 2px solid #CCCCCC;
     border-radius: 8px;
     padding: 37px 57px;
     outline: none;
+    resize: vertical;
 }
 
 .popup__area {
     width: 558px;
     border: none;
+    max-height: 290px;
 }
 
 .textarea::placeholder {
@@ -1559,11 +1562,13 @@ li.slick-active button {
     .textarea {
         width: 434px;
         height: 207px;
+        max-height: 315px;
         padding: 24px 20px;
     }
 
     .popup__area {
         padding: 24px 33px;
+        max-height: 280px;
     }
 
     .form__field::placeholder {
@@ -1683,11 +1688,13 @@ li.slick-active button {
     .textarea {
         width: 100%;
         height: 206px;
+        max-height: 290px;
         border: none;
     }
 
     .popup__area {
         width: 434px;
+        max-height: 280px;
     }
 
     .submit-btn {
@@ -1764,11 +1771,13 @@ li.slick-active button {
 
     .textarea {
         border-radius: 4px;
+        max-height: 270px;
     }
 
     .popup__area {
         width: 275px;
         height: 206px;
+        max-height: 260px;
     }
 
     .submit-btn {
@@ -6366,6 +6375,7 @@ li.slick-active button {
 .contacts-textarea {
     width: 858px;
     height: 449px;
+    max-height: 600px;
 }
 
 .contacts-submit {
