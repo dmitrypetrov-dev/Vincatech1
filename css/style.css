@@ -621,19 +621,6 @@ input, textarea {
         z-index: 400;
     }
 
-    /*header.header_active {*/
-    /*    position: fixed;*/
-    /*    top: 0;*/
-    /*    width: 100%;*/
-    /*    padding: 15px 0 16px 0;*/
-    /*    background-color: #fff;*/
-    /*    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);*/
-    /*}*/
-
-    header.header_active .header__wrapper {
-        align-items: flex-end;
-    }
-
     .header__wrapper {
         padding: 1px 0 0 0;
     }
@@ -644,18 +631,6 @@ input, textarea {
 
     .mobile-logo {
         display: block;
-    }
-
-    .mobile-logo.active {
-        width: 119px;
-    }
-
-    .mobile-logo.active img {
-        vertical-align: top;
-    }
-
-    header.header_active .header-burger {
-        margin-bottom: 5px;
     }
 
     .header-burger {
