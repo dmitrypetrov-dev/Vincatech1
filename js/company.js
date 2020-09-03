@@ -11,16 +11,21 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 
-    $('.burger-menu').click(function (event) {
+    $('.burger-menu > a').click(function (event) {
         $('.drop-menu-burger').slideToggle();
-        $('.burger-menu').toggleClass('arrow-rotate');
+        $('.burger-arrow').toggleClass('arrow-rotate');
+    });
+
+    $('.burger-arrow').click(function (event) {
+        $('.drop-menu-burger').slideToggle();
+        $('.burger-arrow').toggleClass('arrow-rotate');
     });
 });
 
 // jquery slider
 
 $(document).ready(function () {
-    if ($(window).width() > 375) {
+    if ($(window).width() > 600) {
         $('.slider-2').slick({
             arrows: false,
             dots: true,
@@ -142,5 +147,17 @@ $(function () {
                 }
             });
         }
+    });
+});
+
+//form confirmation message
+
+$(document).ready(function () {
+    $('.feedback-submit').click(function (event) {
+        $('.feedback-confirmation, .feedback-form').toggleClass('submitted');
+    });
+
+    $('.popup-submit').click(function (event) {
+        $('.popup-confirmation, .popup__form').toggleClass('submitted');
     });
 });

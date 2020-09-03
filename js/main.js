@@ -11,16 +11,21 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     });
 
-    $('.burger-menu').click(function (event) {
+    $('.burger-menu > a').click(function (event) {
         $('.drop-menu-burger').slideToggle();
-        $('.burger-menu').toggleClass('arrow-rotate');
+        $('.burger-arrow').toggleClass('arrow-rotate');
+    });
+
+    $('.burger-arrow').click(function (event) {
+        $('.drop-menu-burger').slideToggle();
+        $('.burger-arrow').toggleClass('arrow-rotate');
     });
 });
 
 // jquery slider
 
 $(document).ready(function () {
-    if ($(".slider").length && $(window).width() > 375) {
+    if ($(".slider").length && $(window).width() > 600) {
         $('.slider').slick({
             arrows: false,
             dots: true,
@@ -71,6 +76,22 @@ $(document).ready(function () {
         let sc = $(this).attr("href"),
             dn = $(sc).offset().top;
         $('html, body').animate({scrollTop: dn}, 500);
+    });
+});
+
+//form confirmation message
+
+$(document).ready(function () {
+    $('.contacts-submit').click(function (event) {
+        $('.confirmation-block, .contacts-form').toggleClass('submitted');
+    });
+
+    $('.feedback-submit').click(function (event) {
+        $('.feedback-confirmation, .feedback-form').toggleClass('submitted');
+    });
+
+    $('.popup-submit').click(function (event) {
+        $('.popup-confirmation, .popup__form').toggleClass('submitted');
     });
 });
 
