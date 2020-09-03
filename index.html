@@ -76,6 +76,7 @@
                                     Disaster Recovery</a></li>
                             </ul>
                         </div>
+                        <div class="burger-arrow"></div>
                     </li>
                     <li class="burger-nav__item">
                         <a class="header-nav__link" href="industry.html">Industry</a>
@@ -259,7 +260,7 @@
                         decisions with the resources you have today</p>
                 </div>
                 <div class="feedback__right">
-                    <form class="form" action="#" method="post">
+                    <form class="form feedback-form" action="#" method="post">
                         <input class="form__field" type="text" name="name" placeholder="Name" required
                                onfocus="if (placeholder == 'Name') {placeholder = ''}"
                                onblur="if (placeholder == '') {placeholder = 'Name'}">
@@ -272,8 +273,12 @@
                         <textarea class="textarea" name="message" placeholder="Message" required
                                   onfocus="if (placeholder == 'Message') {placeholder = ''}"
                                   onblur="if (placeholder == '') {placeholder = 'Message'}"></textarea>
-                        <button class="submit-btn btn-blue" type="submit">Submit</button>
+                        <button class="submit-btn btn-blue feedback-submit" type="submit">Submit</button>
                     </form>
+                    <div class="feedback-confirmation">
+                        <p class="feedback-confirmation__message">Thank you!<br> Your message sent. We will contact you back
+                            as soon as we get email.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -336,7 +341,7 @@
             <div class="footer__socials">
                 <ul class="social-list">
                     <li class="social-list-item">
-                        <a class="social-list-link social-list-link--fb" href="https://www.facebook.com/Vincatech1-101982654945099" target="_blank"></a>
+                        <a class="social-list-link social-list-link--fb" href="https://www.facebook.com/vincatech/" target="_blank"></a>
                     </li>
                     <li class="social-list-item">
                         <a class="social-list-link social-list-link--lkdn" href="http://linkedin.com/company/vincatech1/about" target="_blank"></a>
@@ -382,6 +387,10 @@
                           onblur="if (placeholder == '') {placeholder = 'Message'}"></textarea>
                 <button class="submit-btn btn-blue popup-submit" type="submit">Submit</button>
             </form>
+            <div class="popup-confirmation">
+                <p class="popup-confirmation__message">Thank you!<br> Your message sent. We will contact you back
+                    as soon as we get email.</p>
+            </div>
         </div>
     </div>
 </div>
